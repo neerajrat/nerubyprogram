@@ -56,7 +56,6 @@ end
 puts "#{large}"
 
 
-=end
 
 
 
@@ -82,5 +81,18 @@ puts "#{large}"
     i=i+1
 end
 
+=end
+
+
+
+# 5. Insertion Sort 
+
+arra = [12,45,23,39,37]
+s= arra.size
+i=0
+item=0
+while(i<s)
+    item = arra[i]
+    j=i+1
 
  
