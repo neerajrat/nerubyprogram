@@ -29,23 +29,3 @@ Variable_Module.Mathodadd
 Variable_Module.SubtractMathod
 Variable_Module.MultiplyMethod
 Variable_Module.DivideMethod
-
-
-# Ruby program to create a 
-# module with variables
-
-module MyModule
-    Num1=20;
-    Num2=10;
-    
-    def MyModule.MethodAdd
-        print "Addition is: ",Num1+Num2,"\n";
-    end
-    
-    def MyModule.MethodSub
-        print "Subtraction is: ",Num1-Num2,"\n";
-    end
-end
-
-MyModule.MethodAdd();
-MyModule.MethodSub();
